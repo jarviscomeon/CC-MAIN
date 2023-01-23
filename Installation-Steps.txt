@@ -1,0 +1,86 @@
+_______________________________________________________________________________________________________________________
+
+Aim: Implement Xen virtualization and manage with Xen Center.
+_______________________________________________________________________________________________________________________
+
+•	Install XenServer in VMware Workstation and select Guest operating system as Linux.
+	Note IP Address – “192.168.124.137” ping it from command prompt.
+•	Now Install Citrix App if not installed
+•	Now Open Citrix XenCenter – and Click and Add Server.
+•	Fill IP address copied from Installation and User name as “root” and Password as “root123” which we had given during installation and Click on Add.
+•	Then click on Ok
+•	Now Click on New Storage
+•	Select Window File Sharing (CIFS) and click on next
+•	Uncheck Auto generate option Click on Next.
+•	Provide the path of shared windows XP image and enter local pc
+•	credential , click on Finish
+•	Click on New VM – and Windows XP SP3
+•	Select ISO file and click on next –
+•	Click on Next –
+•	Uncheck – Start the new VM and click on create now
+•	Now Right click on Windows XP and Start –
+_______________________________________________________________________________________________________________________
+
+Aim: Implement virtualization using VMWare ESXi Server and managing with vCenter
+_______________________________________________________________________________________________________________________
+
+•	Install ESXi iso in VMWare workstation.
+•	Install VMware vSphere Client
+•	In vSphere create new Virtual Machine. Install Windows XP iso file and open it.
+_______________________________________________________________________________________________________________________
+
+Aim: Implement Windows Hyper V virtualization
+_______________________________________________________________________________________________________________________
+
+•	First we have to uninstall vmware software if already installed on computer because the VMware Workstation installer does not support running on a Hyper-V virtual machine. after uninstalling vmware we can proceed to next step go to control panel and click on uninstall a program.
+•	Click on Turn windows features on or off.
+•	Now in windows features check on Hyper-V option.
+•	After Restart Search for hyper-v manager in search box and click on that.
+•	For creating virtual machine first we have to create virtual switch click on
+	virtual switch manager option.
+•	Select External as a connection type and then click on create virtual switch.
+•	Create new Virtual switch and install windows XP .iso
+•	And virtual machine will start.
+_______________________________________________________________________________________________________________________
+
+Aim: Develop application for Microsoft Azure.
+_______________________________________________________________________________________________________________________
+
+Step 1:
+	To develop an application for Windows Azure on Visual Studio install the “Microsoft Azure SDK for .NET (VS 2010) – 2.8.2.1”
+Step 2:
+•	Turn windows Features ON or OFF:
+•	Go to Control panel and click on programs.
+•	Turn Windows features on or off.
+Step 3:
+•	Now, Start the visual studio 2010 and Go To File->New->Project
+•	Expand Visual C#-> Select Cloud
+•	Right Click on WebRole1>>ADD>>New Item
+•	Add a New web Form. Give it a name. Click Add
+•	Deploy the project:
+_______________________________________________________________________________________________________________________
+
+Aim: Develop application for Google App Engine.
+_______________________________________________________________________________________________________________________
+
+•	Open Eclipse Luna. Go to Help Menu Install New Software...
+•	In Install window Click on the “Add” button besides the Work with textbox. Add Repository window appears. Enter the Location as
+   	“https://dl.google.com/eclipse/plugin/4.4” and click on “OK” button.
+•	From the available softwares select the required softwares and tools as shown in the below image for the GAE. Then click on the “Next” button.
+•	In the Install Details window click on “Next” button.
+•	In the Next Window "Review the Items to be Installed" then click on “Next”
+•	In the next window for Review Licenses select the option “I accept......” and click on “Finish” button.
+•	After Installation you will get option to "Restart Eclipse", click on Yes. So that the software you selected gets updated...
+•	Now, go to File Menu_New_Other.
+•	In the New window select Google_Web Application Project and click on “Next” button.
+•	Enter the details for the new Web application project. Deselect the Use Google Web Toolkit option under the section Google SDKs. Click on the “Finish” button.
+•	From the Package Explorer open the .java file (Here it is the “Google_App_EngineServlet.java") 
+•	Edit the file as required (Unedited file too can be used. Here the editing is done to “what should be displayed” on the browser). Save the file. Click on the Run option available on the Toolbar.
+•	In the browser (Here, Google Chrome) type the address as “localhost:8888” which is "Default".
+•	In localhost:8888 the link to the Google_App_EngineServlet.java file as Google_App_Engine is displayed. Click on this link. It will direct you to “localhost:8888/Google_App_Engine”.
+•	The output text entered in the java program is displayed as the output when clicked the link “Google App Engine”.
+
+
+
+
+
